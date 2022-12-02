@@ -1,0 +1,123 @@
+
+.navbar_style{
+  background:  0;
+}
+
+.navbar_logo{
+  color: rgb(82, 0, 130);
+  width: 25px;
+  height: 25px;
+}
+
+/* https://colorgradient.dev/ */
+.bg-img{
+  background-size: 100% 100%;
+background-position: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+background-image: radial-gradient(70% 53% at 36% 76%, #A17FFF47 0%, #073AFF00 100%),radial-gradient(18% 28% at 35% 87%, #FFFFFF78 8%, #073AFF00 100%),radial-gradient(21% 37% at 72% 23%, #E66DFF21 25%, #073AFF00 99%),radial-gradient(35% 56% at 91% 74%, #8A4FFF4F 9%, #073AFF00 100%),linear-gradient(125deg, #4EB5FF38 1%, #6B08C824 77%, #6102FF17 96%);
+}
+
+.main_txt{
+  font-size: 4.5rem;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-weight: 600;
+  color: #212529;
+  line-height: 91%;
+}
+
+.sub_txt{
+  padding-top: 10px;
+  font-size: 1.5em;
+  font-weight: 200;
+  color: #73757d;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  line-height: 91%;
+}
+
+.main_logo{
+  width: 10em; 
+  height: auto;
+  display: block;
+  margin: auto;
+  margin-bottom: 1em;
+}
+
+.entry_page{
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+
+/****************/
+/*  change log  */
+/****************/
+.changelog_version_text{
+  font-size: 1.7em;
+  font-weight: 600;
+  color: #434448;
+}
+
+.heading_text{
+  font-size: 2.2em;
+  font-weight: 600;
+  color: #14151a;
+  margin-left: 15%;
+  margin-top: 1em;
+  margin-bottom: 5px;
+}
+
+.changelog_date_text{
+  font-size: 1em;
+  font-weight: 200;
+  color: #73757d;
+}
+
+.changelog_text{
+  font-size: 1em;
+  font-weight: 200;
+  color: #14151a;
+  padding-top: 3px;
+}
+
+.changelog_card{
+  background-color: #f8f9fa;
+  border-radius: 0.5em;
+  /* border-width: 0; */
+  padding: 1em;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.changelog_icon_green{
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
+  color: green !important;
+}
+
+.changelog_icon_purple{
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
+  color: purple !important;
+}
+
+.changelog_row{
+  padding-bottom: 0.5em;
+}
+
+
+/****************/
+/*  Class Card  */
+/****************/
+.pdf_viewer{
+  width: 70%;
+  height:700px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 10%;
+  border-radius: 0.5em;
+}
+
